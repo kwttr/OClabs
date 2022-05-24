@@ -1,0 +1,15 @@
+C:\Users\Kerbix\Desktop\Учеба\OperatingSystemsLabs\testproject\bin\Debug\net6.0\testproject.exe
+C:\Users\Kerbix\Desktop\Учеба\OperatingSystemsLabs\testproject\bin\Debug\net6.0\testproject.deps.json
+C:\Users\Kerbix\Desktop\Учеба\OperatingSystemsLabs\testproject\bin\Debug\net6.0\testproject.runtimeconfig.json
+C:\Users\Kerbix\Desktop\Учеба\OperatingSystemsLabs\testproject\bin\Debug\net6.0\testproject.dll
+C:\Users\Kerbix\Desktop\Учеба\OperatingSystemsLabs\testproject\bin\Debug\net6.0\testproject.pdb
+C:\Users\Kerbix\Desktop\Учеба\OperatingSystemsLabs\testproject\obj\Debug\net6.0\testproject.csproj.AssemblyReference.cache
+C:\Users\Kerbix\Desktop\Учеба\OperatingSystemsLabs\testproject\obj\Debug\net6.0\testproject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kerbix\Desktop\Учеба\OperatingSystemsLabs\testproject\obj\Debug\net6.0\testproject.AssemblyInfoInputs.cache
+C:\Users\Kerbix\Desktop\Учеба\OperatingSystemsLabs\testproject\obj\Debug\net6.0\testproject.AssemblyInfo.cs
+C:\Users\Kerbix\Desktop\Учеба\OperatingSystemsLabs\testproject\obj\Debug\net6.0\testproject.csproj.CoreCompileInputs.cache
+C:\Users\Kerbix\Desktop\Учеба\OperatingSystemsLabs\testproject\obj\Debug\net6.0\testproject.dll
+C:\Users\Kerbix\Desktop\Учеба\OperatingSystemsLabs\testproject\obj\Debug\net6.0\refint\testproject.dll
+C:\Users\Kerbix\Desktop\Учеба\OperatingSystemsLabs\testproject\obj\Debug\net6.0\testproject.pdb
+C:\Users\Kerbix\Desktop\Учеба\OperatingSystemsLabs\testproject\obj\Debug\net6.0\testproject.genruntimeconfig.cache
+C:\Users\Kerbix\Desktop\Учеба\OperatingSystemsLabs\testproject\obj\Debug\net6.0\ref\testproject.dll

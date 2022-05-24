@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kerbix\\Desktop\\Учеба\\OperatingSystemsLabs\\lab1\\lab1.csproj",
-      "projectName": "lab1",
-      "projectPath": "C:\\Users\\Kerbix\\Desktop\\Учеба\\OperatingSystemsLabs\\lab1\\lab1.csproj",
+      "projectUniqueName": "C:\\Users\\Kerbix\\Desktop\\Учеба\\OperatingSystemsLabs\\testproject\\testproject.csproj",
+      "projectName": "testproject",
+      "projectPath": "C:\\Users\\Kerbix\\Desktop\\Учеба\\OperatingSystemsLabs\\testproject\\testproject.csproj",
       "packagesPath": "C:\\Users\\Kerbix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kerbix\\Desktop\\Учеба\\OperatingSystemsLabs\\lab1\\obj\\",
+      "outputPath": "C:\\Users\\Kerbix\\Desktop\\Учеба\\OperatingSystemsLabs\\testproject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kerbix\\AppData\\Roaming\\NuGet\\NuGet.Config",
