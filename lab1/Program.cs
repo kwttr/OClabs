@@ -1,12 +1,10 @@
 ﻿using System.Threading;
-
 class program
 {
-
+    static double average = 0;
     static void FindAverage(object argument)
     {
-        int[] arr = (int[])argument;
-        int average = 0;
+        var arr = argument as int[];
         foreach (int r in arr)
         {
             Console.WriteLine($"i - {r}");
@@ -23,8 +21,6 @@ class program
         int max = 0,min = 0;
         bool key = true;
         int[] arr=null;
-        double average = 0;
-        ref double avgRef = ref average;
         //Ввод размера массива
         Console.WriteLine("Введите размер массива");
         while (key == true)
@@ -44,16 +40,16 @@ class program
 
         //a)Заполнение массива случайными числами
         Random rand = new Random();
-        foreach (int i in arr)
+        for (int i = 0; i<arr.Length; i++)
         {
             arr[i] = rand.Next(0, 10000000);
             Console.WriteLine(arr[i]);
         }
-        ref int[] arrRef = ref arr;
+
         //b)Создание потока worker
         ParameterizedThreadStart workerThread = new ParameterizedThreadStart(FindAverage);
         Thread worker = new Thread(workerThread);
-        worker.Start(arrRef);
+        worker.Start(arr);
 
         //c)	Найти минимальный и максимальный элементы массива и вывести
         //их на консоль.После каждого сравнения элементов «спать» 7
@@ -66,11 +62,18 @@ class program
             if (i < min) min = i;
             Thread.Sleep(7);
         }
+
         //d)Дождаться завершения worker
-        //?????
+        worker.Join();
+        Console.WriteLine(average);
 
         //e)	Подсчитать количество элементов в массиве, значение которых
-        //больше среднего значения элементов массива, и вывести его на
-
+        //больше среднего значения элементов массива, и вывести его на консоль.
+        int counter = 0;
+        for(int i = 0; i < arr.Length; i++)
+        {
+            if (arr[i] > average) counter++;
+        }
+        Console.WriteLine("Кол-во значений в массиве больше среднего: "+counter);
     }
 }
