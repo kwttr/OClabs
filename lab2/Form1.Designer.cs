@@ -38,6 +38,9 @@
             this.buttonIncPath = new System.Windows.Forms.Button();
             this.buttonOutPath = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.progressBar = new System.Windows.Forms.ProgressBar();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -76,6 +79,7 @@
             this.buttonCopyInThread.TabIndex = 3;
             this.buttonCopyInThread.Text = "Копировать в отдельном потоке";
             this.buttonCopyInThread.UseVisualStyleBackColor = true;
+            this.buttonCopyInThread.Click += new System.EventHandler(this.buttonCopyInThread_Click);
             // 
             // textBox1
             // 
@@ -112,11 +116,27 @@
             this.buttonOutPath.UseVisualStyleBackColor = true;
             this.buttonOutPath.Click += new System.EventHandler(this.buttonOutPath_Click);
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.progressBar);
+            this.panel1.Location = new System.Drawing.Point(12, 147);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(256, 30);
+            this.panel1.TabIndex = 8;
+            // 
+            // progressBar
+            // 
+            this.progressBar.Location = new System.Drawing.Point(0, 4);
+            this.progressBar.Name = "progressBar";
+            this.progressBar.Size = new System.Drawing.Size(255, 23);
+            this.progressBar.TabIndex = 0;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(280, 199);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.buttonOutPath);
             this.Controls.Add(this.buttonIncPath);
             this.Controls.Add(this.textBox2);
@@ -128,6 +148,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,5 +165,7 @@
         private Button buttonIncPath;
         private Button buttonOutPath;
         private System.Windows.Forms.Timer timer1;
+        private Panel panel1;
+        private ProgressBar progressBar;
     }
 }

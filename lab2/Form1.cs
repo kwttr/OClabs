@@ -47,13 +47,16 @@ namespace lab2
 
         private void buttonCopy_Click(object sender, EventArgs e)
         {
-            Thread copyThread = new Thread(CopyFile);
-            copyThread.Start();
+            CopyFile();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+        public void MaxProgBar(int length)
+        {
+            progressBar.Maximum = length;
         }
         public void IncreasingProgressBar(ProgressBar progressBar)
         {
@@ -64,23 +67,26 @@ namespace lab2
             FileStream fstream = File.OpenRead(textBox1.Text);
             byte[] arr = new byte[fstream.Length];
             fstream.Read(arr, 0, arr.Length);
-            using (ProgressBar progressBar = new ProgressBar())
+            MaxProgBar(arr.Length);
+            for (int i = 0; i < arr.Length; i++)
             {
-                progressBar.Location = new Point(12, 164);
-                progressBar.Width = 255;
-                progressBar.Height = 23;
-                progressBar.Maximum = arr.Length;
-                for (int i = 0; i < arr.Length; i++)
+                fstream.Read(arr, i, 1);
+                IncreasingProgressBar(progressBar);
+                if (i % 200 == 0)
                 {
-                    fstream.Read(arr, i, 1);
-                    IncreasingProgressBar(progressBar);
-                    Thread.Sleep(2);
+                    Thread.Sleep(1);
                 }
             }
             FileStream fWrite = File.OpenWrite(textBox2.Text);
             fWrite.Write(arr);
             fWrite.Close();
             fstream.Close();
+        }
+
+        private void buttonCopyInThread_Click(object sender, EventArgs e)
+        {
+            Thread copyThread = new Thread(CopyFile);
+            copyThread.Start();
         }
     }
 }
