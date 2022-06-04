@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikita\\Desktop\\asdf\\OClabs-main\\testproject\\testproject.csproj": {}
+    "C:\\Users\\Nikita\\Desktop\\kekeke\\OClabs\\testproject\\testproject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikita\\Desktop\\asdf\\OClabs-main\\testproject\\testproject.csproj": {
+    "C:\\Users\\Nikita\\Desktop\\kekeke\\OClabs\\testproject\\testproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikita\\Desktop\\asdf\\OClabs-main\\testproject\\testproject.csproj",
+        "projectUniqueName": "C:\\Users\\Nikita\\Desktop\\kekeke\\OClabs\\testproject\\testproject.csproj",
         "projectName": "testproject",
-        "projectPath": "C:\\Users\\Nikita\\Desktop\\asdf\\OClabs-main\\testproject\\testproject.csproj",
+        "projectPath": "C:\\Users\\Nikita\\Desktop\\kekeke\\OClabs\\testproject\\testproject.csproj",
         "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikita\\Desktop\\asdf\\OClabs-main\\testproject\\obj\\",
+        "outputPath": "C:\\Users\\Nikita\\Desktop\\kekeke\\OClabs\\testproject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",

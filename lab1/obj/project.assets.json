@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nikita\\Desktop\\asdf\\OClabs-main\\lab1\\lab1.csproj",
+      "projectUniqueName": "C:\\Users\\Nikita\\Desktop\\kekeke\\OClabs\\lab1\\lab1.csproj",
       "projectName": "lab1",
-      "projectPath": "C:\\Users\\Nikita\\Desktop\\asdf\\OClabs-main\\lab1\\lab1.csproj",
+      "projectPath": "C:\\Users\\Nikita\\Desktop\\kekeke\\OClabs\\lab1\\lab1.csproj",
       "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nikita\\Desktop\\asdf\\OClabs-main\\lab1\\obj\\",
+      "outputPath": "C:\\Users\\Nikita\\Desktop\\kekeke\\OClabs\\lab1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
