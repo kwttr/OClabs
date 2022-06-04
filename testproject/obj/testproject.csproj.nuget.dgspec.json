@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kerbix\\Desktop\\Учеба\\OperatingSystemsLabs\\testproject\\testproject.csproj": {}
+    "C:\\Users\\Nikita\\Desktop\\asdf\\OClabs-main\\testproject\\testproject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kerbix\\Desktop\\Учеба\\OperatingSystemsLabs\\testproject\\testproject.csproj": {
+    "C:\\Users\\Nikita\\Desktop\\asdf\\OClabs-main\\testproject\\testproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kerbix\\Desktop\\Учеба\\OperatingSystemsLabs\\testproject\\testproject.csproj",
+        "projectUniqueName": "C:\\Users\\Nikita\\Desktop\\asdf\\OClabs-main\\testproject\\testproject.csproj",
         "projectName": "testproject",
-        "projectPath": "C:\\Users\\Kerbix\\Desktop\\Учеба\\OperatingSystemsLabs\\testproject\\testproject.csproj",
-        "packagesPath": "C:\\Users\\Kerbix\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kerbix\\Desktop\\Учеба\\OperatingSystemsLabs\\testproject\\obj\\",
+        "projectPath": "C:\\Users\\Nikita\\Desktop\\asdf\\OClabs-main\\testproject\\testproject.csproj",
+        "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nikita\\Desktop\\asdf\\OClabs-main\\testproject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kerbix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nikita\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

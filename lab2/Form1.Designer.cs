@@ -40,6 +40,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.progressBar = new System.Windows.Forms.ProgressBar();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,7 +49,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 15);
+            this.label1.Size = new System.Drawing.Size(95, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Исходный файл";
             // 
@@ -94,7 +95,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(118, 23);
             this.textBox2.TabIndex = 5;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // buttonIncPath
             // 
@@ -130,6 +130,10 @@
             this.progressBar.Name = "progressBar";
             this.progressBar.Size = new System.Drawing.Size(255, 23);
             this.progressBar.TabIndex = 0;
+            // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.WorkerReportsProgress = true;
             // 
             // Form1
             // 
@@ -167,5 +171,6 @@
         private System.Windows.Forms.Timer timer1;
         private Panel panel1;
         private ProgressBar progressBar;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
